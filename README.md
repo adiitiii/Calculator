@@ -1,2 +1,2 @@
 Try out the calculator here 
-[Live Demo](http://127.0.0.1:5500/).
+[Live Demo](https://65be6b9fccf320adf9db2b7e--adorable-lokum-39e60e.netlify.app/).
