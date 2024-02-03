@@ -24,11 +24,17 @@ body {
 /* *************** */
 /* CALCULATOR */
 /* *************** */
+.heading-calculator {
+	text-align: center;
+	font-size: 4rem;
+	color: #f98e8e;
+	margin-top: 3rem;
+}
+
 .main {
 	justify-content: center;
 	align-items: center;
 	height: 75vh;
-	margin-top: 5rem;
 }
 
 .calculator {
@@ -41,9 +47,22 @@ body {
 .display {
 	border: 2px solid #000;
 	border-radius: 0.5rem;
-	padding: 3rem;
+	padding: 1rem;
 	margin-bottom: 1.2rem;
 	background-color: #fff;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.total-show {
+	font-size: 1.7rem;
+	margin: 0 0.6rem;
+}
+
+.input-show {
+	font-size: 2.7rem;
+	margin: 0 0.3rem;
 }
 
 .buttons {
@@ -78,4 +97,27 @@ button:hover {
 
 .cl:hover {
 	background-color: #ffaaaac8;
+}
+
+/* *************** */
+/* FOOTER */
+/* *************** */
+footer {
+	text-align: center;
+	color: #151515;
+	font-weight: 400;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.copyright {
+	font-size: 1.5rem;
+}
+
+.github-link {
+	text-decoration: none;
+}
+
+.github-icon {
+	font-size: 2rem;
+	color: #000;
 }
